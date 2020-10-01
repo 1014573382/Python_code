@@ -1,0 +1,486 @@
+{
+	"info": {
+		"_postman_id": "e5c74072-dbb2-47fa-a2c5-c53d5de64ea5",
+		"name": "Postman_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://postman-echo.com/get?param1=guoxl&param2=888888&userid={{userid}}",
+					"protocol": "http",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "param1",
+							"value": "guoxl"
+						},
+						{
+							"key": "param2",
+							"value": "888888"
+						},
+						{
+							"key": "userid",
+							"value": "{{userid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post-request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"guoxl\",\"password\":\"888888\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "postman-echo.com/post",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "basic-auth",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "postman",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "postman-echo.com/basic-auth",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"basic-auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "digest-auth",
+			"request": {
+				"auth": {
+					"type": "digest",
+					"digest": [
+						{
+							"key": "nonce",
+							"value": "ni1LiL0037PRRhofWdCLmwFsnEtH1lew",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "postman",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "realm",
+							"value": "Users",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "MD5",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "postman-echo.com/digest-auth",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"digest-auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auth/hawk",
+			"request": {
+				"auth": {
+					"type": "hawk",
+					"hawk": [
+						{
+							"key": "authKey",
+							"value": "werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "sha256",
+							"type": "string"
+						},
+						{
+							"key": "authId",
+							"value": "dh37fgj492je",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "postman-echo.com/auth/hawk",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"auth",
+						"hawk"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "oauth1",
+			"request": {
+				"auth": {
+					"type": "oauth1",
+					"oauth1": [
+						{
+							"key": "consumerSecret",
+							"value": "D+EdQ-gs$-%@2Nu7",
+							"type": "string"
+						},
+						{
+							"key": "consumerKey",
+							"value": "RKCGzna7bv9YD57c",
+							"type": "string"
+						},
+						{
+							"key": "addParamsToHeader",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "signatureMethod",
+							"value": "HMAC-SHA1",
+							"type": "string"
+						},
+						{
+							"key": "version",
+							"value": "1.0",
+							"type": "string"
+						},
+						{
+							"key": "addEmptyParamsToSign",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "postman-echo.com/oauth1",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"oauth1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "variables",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "51d55097-19e9-448c-bcbf-6a14f9849bb0",
+						"exec": [
+							"pm.variables.set(\"user\",\"guoguo\");",
+							"pm.variables.set(\"passwd\",\"8888888\");",
+							"",
+							"pm.globals.set(\"user_glo\", \"guonian\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/get?user={{user}}&password={{passwd}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "{{user}}"
+						},
+						{
+							"key": "password",
+							"value": "{{passwd}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post(local variables)",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "585cf064-e6b3-4fa9-8077-71b449618976",
+						"exec": [
+							"pm.variables.set(\"user\",\"guonian\");",
+							"pm.variables.set(\"password\",\"88888\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "2cf3f1c4-cc13-40ab-a05a-fcce72b0a927",
+						"exec": [
+							"// 从某一个接口提取返回值，存在全局变量里，另一个接口可直接引用",
+							"",
+							"//获取返回的响应值然后转化为json格式",
+							"var jsonData=pm.response.json();",
+							"//获取返回的userid值",
+							"",
+							"userid=jsonData.json[\"userid\"];",
+							"//控制台日志查看",
+							"console.log(userid);",
+							"",
+							"//将获取的变量设置全局变量",
+							"pm.globals.set(\"userid\", userid);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user",
+							"value": "{{user}}",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "userid",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "postman-echo.com/post",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put?user={{user_global}}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "postman-echo.com/put?user={{user_global}}&userid={{userid}}",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"put"
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "{{user_global}}"
+						},
+						{
+							"key": "userid",
+							"value": "{{userid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assert",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "19b9121a-093c-4692-b14c-6844db39b618",
+						"exec": [
+							"pm.variables.set(\"user\",\"guoxl\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "77ad5a19-ec2d-4000-8f6d-77d4d0413ab8",
+						"exec": [
+							"//判断响应状态码",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"//获取发送的参数值",
+							"username=pm.variables.get(\"user\");",
+							"console.log(username);",
+							"",
+							"//校验响应内容是否和请求一致",
+							"pm.test(\"Check username\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.json['user']).to.eql(username);",
+							"});",
+							"",
+							"// pm.test(\"Check username\", function () {",
+							"//     var jsonData = pm.response.json();",
+							"//     pm.expect(jsonData.user).to.eql(username);",
+							"// });",
+							"",
+							"//检测相应时间是否小于0.5秒",
+							"pm.test(\"Response time is less than 500ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);",
+							"});",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "postman-echo.com/post?user={{user}}",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "{{user}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

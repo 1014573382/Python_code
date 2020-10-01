@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Weather API Test Report</title>
+    <meta name="generator" content="BSTestRunner 0.8.4"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    
+<style type="text/css" media="screen">
+
+/* -- css div popup ------------------------------------------------------------------------ */
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #99CCFF;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 10pt;
+    width: 500px;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+
+#show_detail_line .label {
+    font-size: 85%;
+    cursor: pointer;
+}
+
+#show_detail_line {
+    margin: 2em auto 1em auto;
+}
+
+#total_row  { font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+</style>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class="container">
+    <div class='heading'>
+<h1>Weather API Test Report</h1>
+<p><strong>Start Time:</strong> 2020-05-07 13:44:25</p>
+<p><strong>Duration:</strong> 0:00:09.992151</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>3</strong></span></p>
+
+<p class='description'>China city Weather Test Report</p>
+</div>
+
+
+    
+<p id='show_detail_line'>
+<span class="label label-primary" onclick="showCase(0)">Summary</span>
+<span class="label label-danger" onclick="showCase(1)">Failed</span>
+<span class="label label-default" onclick="showCase(2)">All</span>
+</p>
+<table id='result_table' class="table">
+    <thead>
+        <tr id='header_row'>
+            <th>Test Group/Test case</td>
+            <th>Count</td>
+            <th>Pass</td>
+            <th>Fail</td>
+            <th>Error</td>
+            <th>View</td>
+        </tr>
+    </thead>
+    <tbody>
+        
+<tr class='text text-success'>
+    <td>test_weather.WeatherTest</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',3)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_weather_chengdu: 测试成都天气</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: {'message': 'success感谢又拍云(upyun.com)提供CDN赞助', 'status': 200, 'date': '20200507', 'time': '2020-05-07 13:43:51', 'cityInfo': {'city': '成都市', 'citykey': '101270101', 'parent': '四川', 'updateTime': '13:31'}, 'data': {'shidu': '76%', 'pm25': 5.0, 'pm10': 10.0, 'quality': '优', 'wendu': '22', 'ganmao': '各类人群可自由活动', 'forecast': [{'date': '07', 'high': '高温 28℃', 'low': '低温 20℃', 'ymd': '2020-05-07', 'week': '星期四', 'sunrise': '06:16', 'sunset': '19:46', 'aqi': 83, 'fx': '无持续风向', 'fl': '&lt;3级', 'type': '阵雨', 'notice': '阵雨来袭，出门记得带伞'}, {'date': '08', 'high': '高温 24℃', 'low': '低温 17℃', 'ymd': '2020-05-08', 'week': '星期五', 'sunrise': '06:15', 'sunset': '19:46', 'aqi': 102, 'fx': '无持续风向', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '09', 'high': '高温 27℃', 'low': '低温 16℃', 'ymd': '2020-05-09', 'week': '星期六', 'sunrise': '06:14', 'sunset': '19:47', 'aqi': 81, 'fx': '北风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '10', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-10', 'week': '星期日', 'sunrise': '06:14', 'sunset': '19:48', 'aqi': 59, 'fx': '南风', 'fl': '&lt;3级', 'type': '多云', 'notice': '阴晴之间，谨防紫外线侵扰'}, {'date': '11', 'high': '高温 30℃', 'low': '低温 18℃', 'ymd': '2020-05-11', 'week': '星期一', 'sunrise': '06:13', 'sunset': '19:48', 'aqi': 63, 'fx': '东风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '12', 'high': '高温 29℃', 'low': '低温 18℃', 'ymd': '2020-05-12', 'week': '星期二', 'sunrise': '06:12', 'sunset': '19:49', 'aqi': 77, 'fx': '东南风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '13', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-13', 'week': '星期三', 'sunrise': '06:11', 'sunset': '19:50', 'fx': '东北风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '14', 'high': '高温 23℃', 'low': '低温 16℃', 'ymd': '2020-05-14', 'week': '星期四', 'sunrise': '06:11', 'sunset': '19:50', 'fx': '东北风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '15', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-15', 'week': '星期五', 'sunrise': '06:10', 'sunset': '19:51', 'fx': '东南风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '16', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-16', 'week': '星期六', 'sunrise': '06:09', 'sunset': '19:52', 'fx': '东南风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '17', 'high': '高温 32℃', 'low': '低温 21℃', 'ymd': '2020-05-17', 'week': '星期日', 'sunrise': '06:09', 'sunset': '19:52', 'fx': '东南风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '18', 'high': '高温 24℃', 'low': '低温 17℃', 'ymd': '2020-05-18', 'week': '星期一', 'sunrise': '06:08', 'sunset': '19:53', 'fx': '西南风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '19', 'high': '高温 31℃', 'low': '低温 20℃', 'ymd': '2020-05-19', 'week': '星期二', 'sunrise': '06:08', 'sunset': '19:53', 'fx': '西北风', 'fl': '&lt;3级', 'type': '多云', 'notice': '阴晴之间，谨防紫外线侵扰'}, {'date': '20', 'high': '高温 31℃', 'low': '低温 20℃', 'ymd': '2020-05-20', 'week': '星期三', 'sunrise': '06:07', 'sunset': '19:54', 'fx': '西南风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '21', 'high': '高温 28℃', 'low': '低温 18℃', 'ymd': '2020-05-21', 'week': '星期四', 'sunrise': '06:06', 'sunset': '19:55', 'fx': '东风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}], 'yesterday': {'date': '06', 'high': '高温 29℃', 'low': '低温 21℃', 'ymd': '2020-05-06', 'week': '星期三', 'sunrise': '06:17', 'sunset': '19:45', 'aqi': 107, 'fx': '无持续风向', 'fl': '&lt;3级', 'type': '阵雨', 'notice': '阵雨来袭，出门记得带伞'}}}
+test over
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_weather_param_error: 测试参数错误</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: {'message': 'success感谢又拍云(upyun.com)提供CDN赞助', 'status': 200, 'date': '20200507', 'time': '2020-05-07 13:43:51', 'cityInfo': {'city': '成都市', 'citykey': '101270101', 'parent': '四川', 'updateTime': '13:31'}, 'data': {'shidu': '76%', 'pm25': 5.0, 'pm10': 10.0, 'quality': '优', 'wendu': '22', 'ganmao': '各类人群可自由活动', 'forecast': [{'date': '07', 'high': '高温 28℃', 'low': '低温 20℃', 'ymd': '2020-05-07', 'week': '星期四', 'sunrise': '06:16', 'sunset': '19:46', 'aqi': 83, 'fx': '无持续风向', 'fl': '&lt;3级', 'type': '阵雨', 'notice': '阵雨来袭，出门记得带伞'}, {'date': '08', 'high': '高温 24℃', 'low': '低温 17℃', 'ymd': '2020-05-08', 'week': '星期五', 'sunrise': '06:15', 'sunset': '19:46', 'aqi': 102, 'fx': '无持续风向', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '09', 'high': '高温 27℃', 'low': '低温 16℃', 'ymd': '2020-05-09', 'week': '星期六', 'sunrise': '06:14', 'sunset': '19:47', 'aqi': 81, 'fx': '北风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '10', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-10', 'week': '星期日', 'sunrise': '06:14', 'sunset': '19:48', 'aqi': 59, 'fx': '南风', 'fl': '&lt;3级', 'type': '多云', 'notice': '阴晴之间，谨防紫外线侵扰'}, {'date': '11', 'high': '高温 30℃', 'low': '低温 18℃', 'ymd': '2020-05-11', 'week': '星期一', 'sunrise': '06:13', 'sunset': '19:48', 'aqi': 63, 'fx': '东风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '12', 'high': '高温 29℃', 'low': '低温 18℃', 'ymd': '2020-05-12', 'week': '星期二', 'sunrise': '06:12', 'sunset': '19:49', 'aqi': 77, 'fx': '东南风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '13', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-13', 'week': '星期三', 'sunrise': '06:11', 'sunset': '19:50', 'fx': '东北风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '14', 'high': '高温 23℃', 'low': '低温 16℃', 'ymd': '2020-05-14', 'week': '星期四', 'sunrise': '06:11', 'sunset': '19:50', 'fx': '东北风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '15', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-15', 'week': '星期五', 'sunrise': '06:10', 'sunset': '19:51', 'fx': '东南风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '16', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-16', 'week': '星期六', 'sunrise': '06:09', 'sunset': '19:52', 'fx': '东南风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '17', 'high': '高温 32℃', 'low': '低温 21℃', 'ymd': '2020-05-17', 'week': '星期日', 'sunrise': '06:09', 'sunset': '19:52', 'fx': '东南风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '18', 'high': '高温 24℃', 'low': '低温 17℃', 'ymd': '2020-05-18', 'week': '星期一', 'sunrise': '06:08', 'sunset': '19:53', 'fx': '西南风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '19', 'high': '高温 31℃', 'low': '低温 20℃', 'ymd': '2020-05-19', 'week': '星期二', 'sunrise': '06:08', 'sunset': '19:53', 'fx': '西北风', 'fl': '&lt;3级', 'type': '多云', 'notice': '阴晴之间，谨防紫外线侵扰'}, {'date': '20', 'high': '高温 31℃', 'low': '低温 20℃', 'ymd': '2020-05-20', 'week': '星期三', 'sunrise': '06:07', 'sunset': '19:54', 'fx': '西南风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '21', 'high': '高温 28℃', 'low': '低温 18℃', 'ymd': '2020-05-21', 'week': '星期四', 'sunrise': '06:06', 'sunset': '19:55', 'fx': '东风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}], 'yesterday': {'date': '06', 'high': '高温 29℃', 'low': '低温 21℃', 'ymd': '2020-05-06', 'week': '星期三', 'sunrise': '06:17', 'sunset': '19:45', 'aqi': 107, 'fx': '无持续风向', 'fl': '&lt;3级', 'type': '阵雨', 'notice': '阵雨来袭，出门记得带伞'}}}
+test over
+test over
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_weather_tianjin: 测试天津天气</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: {'message': 'success感谢又拍云(upyun.com)提供CDN赞助', 'status': 200, 'date': '20200507', 'time': '2020-05-07 13:43:51', 'cityInfo': {'city': '成都市', 'citykey': '101270101', 'parent': '四川', 'updateTime': '13:31'}, 'data': {'shidu': '76%', 'pm25': 5.0, 'pm10': 10.0, 'quality': '优', 'wendu': '22', 'ganmao': '各类人群可自由活动', 'forecast': [{'date': '07', 'high': '高温 28℃', 'low': '低温 20℃', 'ymd': '2020-05-07', 'week': '星期四', 'sunrise': '06:16', 'sunset': '19:46', 'aqi': 83, 'fx': '无持续风向', 'fl': '&lt;3级', 'type': '阵雨', 'notice': '阵雨来袭，出门记得带伞'}, {'date': '08', 'high': '高温 24℃', 'low': '低温 17℃', 'ymd': '2020-05-08', 'week': '星期五', 'sunrise': '06:15', 'sunset': '19:46', 'aqi': 102, 'fx': '无持续风向', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '09', 'high': '高温 27℃', 'low': '低温 16℃', 'ymd': '2020-05-09', 'week': '星期六', 'sunrise': '06:14', 'sunset': '19:47', 'aqi': 81, 'fx': '北风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '10', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-10', 'week': '星期日', 'sunrise': '06:14', 'sunset': '19:48', 'aqi': 59, 'fx': '南风', 'fl': '&lt;3级', 'type': '多云', 'notice': '阴晴之间，谨防紫外线侵扰'}, {'date': '11', 'high': '高温 30℃', 'low': '低温 18℃', 'ymd': '2020-05-11', 'week': '星期一', 'sunrise': '06:13', 'sunset': '19:48', 'aqi': 63, 'fx': '东风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '12', 'high': '高温 29℃', 'low': '低温 18℃', 'ymd': '2020-05-12', 'week': '星期二', 'sunrise': '06:12', 'sunset': '19:49', 'aqi': 77, 'fx': '东南风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '13', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-13', 'week': '星期三', 'sunrise': '06:11', 'sunset': '19:50', 'fx': '东北风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '14', 'high': '高温 23℃', 'low': '低温 16℃', 'ymd': '2020-05-14', 'week': '星期四', 'sunrise': '06:11', 'sunset': '19:50', 'fx': '东北风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '15', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-15', 'week': '星期五', 'sunrise': '06:10', 'sunset': '19:51', 'fx': '东南风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '16', 'high': '高温 28℃', 'low': '低温 17℃', 'ymd': '2020-05-16', 'week': '星期六', 'sunrise': '06:09', 'sunset': '19:52', 'fx': '东南风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '17', 'high': '高温 32℃', 'low': '低温 21℃', 'ymd': '2020-05-17', 'week': '星期日', 'sunrise': '06:09', 'sunset': '19:52', 'fx': '东南风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}, {'date': '18', 'high': '高温 24℃', 'low': '低温 17℃', 'ymd': '2020-05-18', 'week': '星期一', 'sunrise': '06:08', 'sunset': '19:53', 'fx': '西南风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '19', 'high': '高温 31℃', 'low': '低温 20℃', 'ymd': '2020-05-19', 'week': '星期二', 'sunrise': '06:08', 'sunset': '19:53', 'fx': '西北风', 'fl': '&lt;3级', 'type': '多云', 'notice': '阴晴之间，谨防紫外线侵扰'}, {'date': '20', 'high': '高温 31℃', 'low': '低温 20℃', 'ymd': '2020-05-20', 'week': '星期三', 'sunrise': '06:07', 'sunset': '19:54', 'fx': '西南风', 'fl': '&lt;3级', 'type': '小雨', 'notice': '雨虽小，注意保暖别感冒'}, {'date': '21', 'high': '高温 28℃', 'low': '低温 18℃', 'ymd': '2020-05-21', 'week': '星期四', 'sunrise': '06:06', 'sunset': '19:55', 'fx': '东风', 'fl': '&lt;3级', 'type': '阴', 'notice': '不要被阴云遮挡住好心情'}], 'yesterday': {'date': '06', 'high': '高温 29℃', 'low': '低温 21℃', 'ymd': '2020-05-06', 'week': '星期三', 'sunrise': '06:17', 'sunset': '19:45', 'aqi': 107, 'fx': '无持续风向', 'fl': '&lt;3级', 'type': '阵雨', 'notice': '阵雨来袭，出门记得带伞'}}}
+test over
+test over
+test over
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+    </tbody>
+    <tfoot>
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>3</td>
+            <td class="text text-success">3</td>
+            <td class="text text-danger">0</td>
+            <td class="text text-warning">0</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+
+    <div id='ending'>&nbsp;</div>
+</div>
+
+</body>
+</html>

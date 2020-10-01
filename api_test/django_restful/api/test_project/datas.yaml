@@ -1,0 +1,17 @@
+api_user:
+  - id: 1
+    username: guoxl
+    email: guoxl@163.com
+    api_user.groups: http://127.0.0.1:8000/groups/1/
+
+  - id: 2
+    username: guonian
+    email: guonian@163.com
+    api_user.groups: http://127.0.0.1:8000/groups/2/
+
+api_group:
+  - id: 1
+    name: Developer
+  - id: 2
+    name: Tester
+

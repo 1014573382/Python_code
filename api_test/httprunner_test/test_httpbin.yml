@@ -1,0 +1,12 @@
+- config:
+    name: httpbin api test
+    request:
+      base_url: http://httpbin.org
+- test:
+    name: get request
+    request:
+      url: /get
+      method: GET
+    validate:
+      -eq: [status_code, 200]
+
