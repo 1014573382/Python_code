@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="494ed3da-57b5-4250-8019-e8745718049e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Appium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Appium/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +113,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="44" width="1130" height="701" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
