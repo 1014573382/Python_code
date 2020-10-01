@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba670bc-da56-49dd-ae0b-3919c713a42a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/all_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/login_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/mail_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/List.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/alert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/cookie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_css_selector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_link_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/hover_menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/test_report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/testsuit_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/unit_test_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/wait2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/practise/AutoTest_project/Website/test_case/model/myunit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenium/practise/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_practise/time_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,33 +20,56 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base_practise/dict_poeration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="130">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base_practise/pytest_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base_practise/time_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/.idea/Python_base.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="102" />
-    <option name="y" value="38" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base_practise/test.py" />
+        <option value="$PROJECT_DIR$/base_practise/time_module.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="161" />
+    <option name="y" value="18" />
     <option name="width" value="1130" />
     <option name="height" value="701" />
   </component>
@@ -86,16 +79,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_base" type="462c0819:PsiDirectoryNode" />
+              <item name="base_practise" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/base_practise" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\Python_code\Python_base\base_practise" />
       <recent name="D:\Python\Python_code\Python_base" />
     </key>
   </component>
@@ -110,6 +120,56 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.time_module">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Python\Python_code\Python_base\base_practise\time_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="time_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_practise/time_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.time_module" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -136,15 +196,29 @@
       <option name="project" value="LOCAL" />
       <updated>1601549885815</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pytest_practise">
+      <created>1601553165377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601553165377</updated>
+    </task>
+    <task id="LOCAL-00004" summary="venv">
+      <created>1601553319873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601553319873</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="38" width="1130" height="701" extended-state="1" />
+    <frame x="287" y="12" width="1130" height="701" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32967034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.260989" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -152,7 +226,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -164,7 +238,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python相关文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="python相关文件" />
+    <MESSAGE value="pytest_practise" />
+    <MESSAGE value="venv" />
+    <option name="LAST_COMMIT_MESSAGE" value="venv" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/base_practise/data.txt">
@@ -172,8 +248,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base_practise/dict_poeration.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_practise/time_module.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_practise/pytest_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_practise/time_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>

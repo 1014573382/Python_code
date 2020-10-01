@@ -2,146 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdc4394-78c8-4782-9888-1fdb28e886ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Comprehensive_practice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comprehensive_practice/all_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comprehensive_practice/category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comprehensive_practice/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comprehensive_practice/login_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comprehensive_practice/mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comprehensive_practice/mail_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/List.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/alert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/cookie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/find_by_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/find_by_css_selector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/find_by_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/find_by_link_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/find_by_xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/hover_menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/test_report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/testsuit_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/unit_test_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_operation/wait2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/ActionChains/click.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/ActionChains/drag_and_drop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/ActionChains/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/ActionChains/keypress1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/ActionChains/keypress2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/ActionChains/mouseover.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/ActionChains/基础介绍.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/runtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_case/driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_case/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_case/model/function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_case/model/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_case/model/myunit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_case/page_object/BasePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_case/page_object/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_case/test_login_mode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_report/2019-09-01 18-05-38test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_report/2019-09-01 18-30-01test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_report/2019-09-01 19-06-13test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_report/screenshot/baidu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_report/screenshot/baidu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_report/screenshot/login1success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_report/screenshot/login2passwdError.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/AutoTest_project/Website/test_report/screenshot/login3empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/PageObject/BasePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/PageObject/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/PageObject/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/PageObject/login_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/PageObject/related/args.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/PageObject/related/find_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Self_Comprehensive_Practise/TestCase/Common/element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Self_Comprehensive_Practise/TestCase/Common/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Self_Comprehensive_Practise/TestCase/Common/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Self_Comprehensive_Practise/TestCase/Common/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Self_Comprehensive_Practise/TestCase/Common/start_end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Self_Comprehensive_Practise/TestCase/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Self_Comprehensive_Practise/TestCase/test_add_information.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Self_Comprehensive_Practise/TestCase/testlogin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Send_Email/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Send_Email/mail_attach.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Send_Email/send_emailAtt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Send_Email/send_email_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Spider_photo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Stu_info.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Test_Module/Call_Login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Test_Module/LoginClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Test_Module/LoginClass_Para.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Test_Module/Multiple_accounts_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Test_Module/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Test_Module/read_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Test_Module/user_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Test_Module/userinfo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/Test_Module/users.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/exception/except1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/file_read.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/file_read/conf_user.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/file_read/confparser_read.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/test_report/2019-08-25 14-39-28test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/test_report/2019-09-01 13-08-35test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/test_report/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/test_report/test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/thread/Mult_Processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/thread/Multi_Threading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/thread/Single_thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/Test_Math.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/Unittest_Web/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/Unittest_Web/latest_report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/Unittest_Web/run_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/Unittest_Web/runtest_email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/Unittest_Web/search_test/search_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/Unittest_Web/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/Unittest_Web/testreport/2019-09-01 13-38-13report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/UseCase_Management/StartEnd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/UseCase_Management/caculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/UseCase_Management/runtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/UseCase_Management/test_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/UseCase_Management/test_report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/UseCase_Management/test_sub.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/caculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/csv_readwrite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/test_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/test_skip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/unittest_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/user.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/unittest/userinfo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/Frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/alert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/cookie_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/element_wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/find_by_css_selector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/frame_locate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/implicitly_wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/keyboard_operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/mouse_operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/open_browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/scroll_window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/upload_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/webdriver/windows_switch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/xml_Read/Get_ChildNodeinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/xml_Read/Get_Nodeattribute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/xml_Read/Get_Nodeinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/xml_Read/Get_Nodevalue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise/xml_Read/student_info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_base/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_test/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,80 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Comprehensive_practice/mail_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic_operation/cookie">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/PageObject/BasePage.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/Test_Module/geckodriver.log">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/Test_Module/LoginClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#28#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/Test_Module/LoginClass_Para.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#69#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practise/Test_Module/Multiple_accounts_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/PageObject/login_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -254,8 +42,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="225" />
-    <option name="y" value="19" />
+    <option name="x" value="187" />
+    <option name="y" value="52" />
     <option name="width" value="1130" />
     <option name="height" value="701" />
   </component>
@@ -272,46 +60,6 @@
             <path>
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Comprehensive_practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="practise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="practise" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoTest_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="practise" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="practise" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="practise" type="462c0819:PsiDirectoryNode" />
-              <item name="Send_Email" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="practise" type="462c0819:PsiDirectoryNode" />
-              <item name="Test_Module" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,10 +102,18 @@
       <option name="presentableId" value="Default" />
       <updated>1601550190740</updated>
     </task>
+    <task id="LOCAL-00001" summary="selenium 相关文件">
+      <created>1601552867771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601552867771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="225" y="19" width="1130" height="701" extended-state="0" />
+    <frame x="187" y="52" width="1130" height="701" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -377,6 +133,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="selenium 相关文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium 相关文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Comprehensive_practice/mail_demo.py">
@@ -556,12 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practise/PageObject/BasePage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/Test_Module/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/practise/Test_Module/LoginClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -584,8 +338,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practise/Test_Module/Multiple_accounts_login.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/Test_Module/read_excel.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/Test_Module/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/thread/Multi_Threading.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/unittest/Unittest_Web/search_test/search_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/PageObject/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/unittest/caculator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/webdriver/find_by_css_selector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/webdriver/implicitly_wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/webdriver/mouse_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/file_read.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/unittest/test_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#135#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/unittest/csv_readwrite.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/Spider_photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/unittest/Unittest_Web/run_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#21#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/unittest/Unittest_Web/latest_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
