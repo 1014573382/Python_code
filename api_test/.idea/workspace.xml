@@ -2,35 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="494ed3da-57b5-4250-8019-e8745718049e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-11 22_32_23test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-12 14_41_41test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-12 15_36_58test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-12 15_59_17test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-12 16_57_40test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-12 17_05_32test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-12 17_08_38test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-16 22_28_02test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-16 22_33_43test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-16 22_43_12test_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-08 16_01_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-11 22_11_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-11 22_14_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-11 22_34_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-11 22_35_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-12 15_38_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-12 15_40_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-12 16_09_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-12 16_10_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-12 17_00_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-12 17_01_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-12 17_09_38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-16 22_28_58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-16 22_35_33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/login fail_2019-12-16 22_45_00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/register Fail_2019-12-08 16_21_40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/register Fail_2019-12-09 16_53_40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/register Fail_2019-12-09 18_09_47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/startApp_2019-12-08 15_12_08.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Appium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Appium/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -143,7 +114,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="44" width="1130" height="701" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />

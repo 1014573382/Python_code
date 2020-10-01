@@ -1,0 +1,8 @@
+ImmutableMultiDict([('phrase', 'the university,life'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'u', 'i', 'e'}
+ImmutableMultiDict([('phrase', 'guoxiali'), ('letters', 'gx')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'x', 'g'}
+ImmutableMultiDict([('phrase', 'life,the universe,and everything'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'e', 'u', 'i', 'a'}
+ImmutableMultiDict([('phrase', 'fefieorfjerigjesgea'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'e', 'i', 'o', 'a'}
+ImmutableMultiDict([('phrase', 'the university,life'), ('letters', 'th')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'h', 't'}
+ImmutableMultiDict([('phrase', 'farfreagsg'), ('letters', 'efd')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'f', 'e'}
+ImmutableMultiDict([('phrase', 'the sky'), ('letters', 'k')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'k'}
+ImmutableMultiDict([('phrase', 'the skyvfgerfefwa'), ('letters', 'ker')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'k', 'e', 'r'}
