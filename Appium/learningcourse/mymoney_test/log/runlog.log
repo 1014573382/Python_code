@@ -1,0 +1,5 @@
+2020-05-16 23:34:48,742 desired_capability.py[line:39] INFO start run app...
+2020-05-16 23:35:15,484 common_fun.py[line:55] INFO ==========check_authBtn===========
+2020-05-16 23:35:25,809 common_fun.py[line:59] INFO Authozise element is not found!
+2020-05-16 23:35:27,381 common_fun.py[line:66] INFO click skipBtn into app
+2020-05-16 23:35:38,833 login_view.py[line:65] INFO The logged account nickname is: 15222186hPx

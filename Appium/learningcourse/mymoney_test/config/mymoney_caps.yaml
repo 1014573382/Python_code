@@ -1,0 +1,13 @@
+platformName: Android
+platformVersion: 7.1.2
+deviceName: 127.0.0.1:62025
+appname: mymoney.apk
+noReset: True
+
+unicodeKeyboard: True
+resetKeyboard: True
+
+appPackage: com.mymoney
+appActivity: com.mymoney.biz.splash.SplashScreenActivity
+ip: 127.0.0.1
+port: 4723

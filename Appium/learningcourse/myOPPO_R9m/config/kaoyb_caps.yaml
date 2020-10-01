@@ -1,0 +1,14 @@
+platformName: Android
+platformVersion: '5.1'
+deviceName: OPPO R9m
+udid: EETCYPNF99999999
+
+appname: kaoyan3.1.0.apk
+noReset: True
+unicodeKeyboard: True
+resetKeyboard: True
+
+appPackage: com.tal.kaoyan
+appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+ip: 127.0.0.1
+port: 4723

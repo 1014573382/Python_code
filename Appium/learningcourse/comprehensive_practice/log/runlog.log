@@ -1,0 +1,39 @@
+2019-12-16 22:43:12,926 run_test.py[line:28] INFO start run testcase...
+2019-12-16 22:43:12,927 myunit.py[line:9] INFO ================setUp===============
+2019-12-16 22:43:12,931 desired_caps.py[line:36] INFO start run app...
+2019-12-16 22:43:34,224 test_login.py[line:14] INFO ============test_correct_login===========
+2019-12-16 22:43:34,227 common_funs.py[line:23] INFO ==========check_updateBtn===========
+2019-12-16 22:43:34,898 common_funs.py[line:30] INFO click cancelBtn
+2019-12-16 22:43:34,951 common_funs.py[line:34] INFO =============check skipBtn============
+2019-12-16 22:43:35,983 common_funs.py[line:41] INFO click skipBtn
+2019-12-16 22:43:36,063 loginView.py[line:30] INFO ============login_action==============
+2019-12-16 22:43:36,064 loginView.py[line:31] INFO input username is: guoxly
+2019-12-16 22:43:38,728 loginView.py[line:35] INFO input password is: gz091081
+2019-12-16 22:43:39,801 loginView.py[line:38] INFO click loginBtn
+2019-12-16 22:43:40,364 loginView.py[line:40] INFO login finished!
+2019-12-16 22:43:40,368 loginView.py[line:60] INFO ==========check_loginStatus===========
+2019-12-16 22:43:40,368 common_funs.py[line:60] INFO =======check_market_ad=============
+2019-12-16 22:43:48,670 loginView.py[line:50] INFO ====check_account_logout_alert======
+2019-12-16 22:43:57,309 loginView.py[line:73] INFO login success!
+2019-12-16 22:43:57,312 loginView.py[line:43] INFO =========logout_action==========
+2019-12-16 22:44:00,449 myunit.py[line:14] INFO ===============tearDown===============
+2019-12-16 22:44:07,744 myunit.py[line:9] INFO ================setUp===============
+2019-12-16 22:44:07,750 desired_caps.py[line:36] INFO start run app...
+2019-12-16 22:44:28,756 test_login.py[line:32] INFO ============test_error_password===========
+2019-12-16 22:44:28,759 common_funs.py[line:23] INFO ==========check_updateBtn===========
+2019-12-16 22:44:30,083 common_funs.py[line:30] INFO click cancelBtn
+2019-12-16 22:44:30,156 common_funs.py[line:34] INFO =============check skipBtn============
+2019-12-16 22:44:31,187 common_funs.py[line:41] INFO click skipBtn
+2019-12-16 22:44:31,228 loginView.py[line:30] INFO ============login_action==============
+2019-12-16 22:44:31,229 loginView.py[line:31] INFO input username is: guoxly
+2019-12-16 22:44:34,097 loginView.py[line:35] INFO input password is: gz1215
+2019-12-16 22:44:35,162 loginView.py[line:38] INFO click loginBtn
+2019-12-16 22:44:35,739 loginView.py[line:40] INFO login finished!
+2019-12-16 22:44:35,742 loginView.py[line:60] INFO ==========check_loginStatus===========
+2019-12-16 22:44:35,744 common_funs.py[line:60] INFO =======check_market_ad=============
+2019-12-16 22:44:44,283 loginView.py[line:50] INFO ====check_account_logout_alert======
+2019-12-16 22:45:00,901 loginView.py[line:68] ERROR +++++++++++++++login fail!++++++++++++++++
+2019-12-16 22:45:00,902 common_funs.py[line:77] INFO get login fail screenshot
+2019-12-16 22:45:01,254 myunit.py[line:14] INFO ===============tearDown===============
+2019-12-16 22:45:08,408 common_funs.py[line:139] INFO ********Start send email********
+2019-12-16 22:45:09,004 common_funs.py[line:142] INFO ********Send email success********

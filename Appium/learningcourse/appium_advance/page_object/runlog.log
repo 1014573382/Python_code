@@ -1,0 +1,36 @@
+2019-12-04 22:55:47,233 myunit.py[line:10] INFO =======================setUp=============================
+2019-12-04 22:55:47,237 desired_caps.py[line:28] INFO start run app...
+2019-12-04 22:56:13,148 test_kyblogin.py[line:9] INFO ========test_login_correct=========
+2019-12-04 22:56:13,148 common_fun.py[line:13] INFO ==========check cancelBtn===========
+2019-12-04 22:56:14,094 common_fun.py[line:20] INFO click cancelBtn
+2019-12-04 22:56:14,213 common_fun.py[line:25] INFO =============check skipBtn============
+2019-12-04 22:56:15,075 loginView.py[line:20] INFO ===========start login=============
+2019-12-04 22:56:15,076 loginView.py[line:21] INFO input username:guoxly
+2019-12-04 22:56:19,117 loginView.py[line:25] INFO input password:gz091081
+2019-12-04 22:56:20,795 loginView.py[line:29] INFO click loginBtn.
+2019-12-04 22:56:24,736 loginView.py[line:36] INFO login finished
+2019-12-04 22:56:24,736 myunit.py[line:14] INFO ===========================tearDown=======================
+2019-12-04 22:56:31,663 myunit.py[line:10] INFO =======================setUp=============================
+2019-12-04 22:56:31,667 desired_caps.py[line:28] INFO start run app...
+2019-12-04 22:56:56,688 test_kyblogin.py[line:14] INFO ======test_login_username_error======
+2019-12-04 22:56:56,688 common_fun.py[line:13] INFO ==========check cancelBtn===========
+2019-12-04 22:56:57,432 common_fun.py[line:20] INFO click cancelBtn
+2019-12-04 22:56:57,528 common_fun.py[line:25] INFO =============check skipBtn============
+2019-12-04 22:56:58,480 loginView.py[line:20] INFO ===========start login=============
+2019-12-04 22:56:58,481 loginView.py[line:21] INFO input username:guoxl
+2019-12-04 22:57:02,282 loginView.py[line:25] INFO input password:gz091081
+2019-12-04 22:57:04,439 loginView.py[line:29] INFO click loginBtn.
+2019-12-04 22:57:12,079 loginView.py[line:34] INFO ----------login error----------
+2019-12-04 22:57:12,080 myunit.py[line:14] INFO ===========================tearDown=======================
+2019-12-04 22:57:18,795 myunit.py[line:10] INFO =======================setUp=============================
+2019-12-04 22:57:18,801 desired_caps.py[line:28] INFO start run app...
+2019-12-04 22:57:44,793 test_kyblogin.py[line:19] INFO ======test_login_password_error======
+2019-12-04 22:57:44,794 common_fun.py[line:13] INFO ==========check cancelBtn===========
+2019-12-04 22:57:45,672 common_fun.py[line:20] INFO click cancelBtn
+2019-12-04 22:57:45,751 common_fun.py[line:25] INFO =============check skipBtn============
+2019-12-04 22:57:46,685 loginView.py[line:20] INFO ===========start login=============
+2019-12-04 22:57:46,685 loginView.py[line:21] INFO input username:guoxly
+2019-12-04 22:57:50,812 loginView.py[line:25] INFO input password:gl1215
+2019-12-04 22:57:52,778 loginView.py[line:29] INFO click loginBtn.
+2019-12-04 22:58:00,538 loginView.py[line:34] INFO ----------login error----------
+2019-12-04 22:58:00,539 myunit.py[line:14] INFO ===========================tearDown=======================

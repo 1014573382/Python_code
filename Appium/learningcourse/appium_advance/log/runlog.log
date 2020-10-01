@@ -1,0 +1,49 @@
+DEBUG:root:debug info
+INFO:root:hello guoxl
+WARNING:root:warning info
+ERROR:root:error info
+CRITICAL:root:critical info
+2019-12-01 22:04:31,658 logging_test.py[line:16]DEBUGdebug info
+2019-12-01 22:04:31,658 logging_test.py[line:17]INFOhello guoxl
+2019-12-01 22:04:31,659 logging_test.py[line:18]WARNINGwarning info
+2019-12-01 22:04:31,659 logging_test.py[line:19]ERRORerror info
+2019-12-01 22:04:31,659 logging_test.py[line:20]CRITICALcritical info
+2019-12-01 22:04:56,944 logging_test.py [line:16] DEBUG debug info
+2019-12-01 22:04:56,944 logging_test.py [line:17] INFO hello guoxl
+2019-12-01 22:04:56,944 logging_test.py [line:18] WARNING warning info
+2019-12-01 22:04:56,945 logging_test.py [line:19] ERROR error info
+2019-12-01 22:04:56,945 logging_test.py [line:20] CRITICAL critical info
+2019-12-01 22:20:24,391 kyb_logging.py [line:22] INFO start app...
+2019-12-01 22:20:24,398 remote_connection.py [line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "7.1.2", "appium:deviceName": "127.0.0.1:62025", "appium:app": "D:\\Python\\kaoyan3.1.0.apk", "appium:appPackage": "com.tal.kaoyan", "appium:appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "appium:noReset": false}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "7.1.2", "deviceName": "127.0.0.1:62025", "app": "D:\\Python\\kaoyan3.1.0.apk", "appPackage": "com.tal.kaoyan", "appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "noReset": false}}
+2019-12-01 22:20:24,399 connectionpool.py [line:206] DEBUG Starting new HTTP connection (1): 127.0.0.1:4723
+2019-12-01 22:20:47,423 connectionpool.py [line:396] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 984
+2019-12-01 22:20:47,424 remote_connection.py [line:440] DEBUG Finished Request
+2019-12-01 22:20:47,424 kyb_logging.py [line:26] INFO check_cancelBtn
+2019-12-01 22:20:47,424 remote_connection.py [line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/f260d66f-9635-44b5-ad2c-f82fa8fafb9c/element {"using": "id", "value": "android:id/button2"}
+2019-12-01 22:20:48,582 connectionpool.py [line:396] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/f260d66f-9635-44b5-ad2c-f82fa8fafb9c/element HTTP/1.1" 200 137
+2019-12-01 22:20:48,582 remote_connection.py [line:440] DEBUG Finished Request
+2019-12-01 22:20:48,583 remote_connection.py [line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/f260d66f-9635-44b5-ad2c-f82fa8fafb9c/element/57b63401-50d0-4ec1-8011-4ec1f53299f0/click {"id": "57b63401-50d0-4ec1-8011-4ec1f53299f0"}
+2019-12-01 22:20:49,844 connectionpool.py [line:396] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/f260d66f-9635-44b5-ad2c-f82fa8fafb9c/element/57b63401-50d0-4ec1-8011-4ec1f53299f0/click HTTP/1.1" 200 14
+2019-12-01 22:20:49,845 remote_connection.py [line:440] DEBUG Finished Request
+2019-12-01 22:20:49,845 kyb_logging.py [line:37] INFO check_skipBtn
+2019-12-01 22:20:49,845 remote_connection.py [line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/f260d66f-9635-44b5-ad2c-f82fa8fafb9c/element {"using": "id", "value": "com.tal.kaoyan:id/tv_skip"}
+2019-12-01 22:20:49,984 connectionpool.py [line:396] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/f260d66f-9635-44b5-ad2c-f82fa8fafb9c/element HTTP/1.1" 200 137
+2019-12-01 22:20:49,984 remote_connection.py [line:440] DEBUG Finished Request
+2019-12-01 22:20:49,985 remote_connection.py [line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/f260d66f-9635-44b5-ad2c-f82fa8fafb9c/element/fc032c8c-6041-4362-904c-0c64198b06bf/click {"id": "fc032c8c-6041-4362-904c-0c64198b06bf"}
+2019-12-01 22:20:50,067 connectionpool.py [line:396] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/f260d66f-9635-44b5-ad2c-f82fa8fafb9c/element/fc032c8c-6041-4362-904c-0c64198b06bf/click HTTP/1.1" 200 14
+2019-12-01 22:20:50,068 remote_connection.py [line:440] DEBUG Finished Request
+2019-12-01 22:37:35,645 kyb_logconf.py[line:24] INFO start app...
+2019-12-01 22:37:53,648 kyb_logconf.py[line:28] INFO check_cancelBtn
+2019-12-01 22:37:54,143 kyb_logconf.py[line:33] INFO no cancelBtn
+2019-12-01 22:37:54,143 kyb_logconf.py[line:39] INFO check_skipBtn
+2019-12-01 22:37:54,951 kyb_logconf.py[line:43] INFO no skipBtn
+2019-12-02 22:15:17,448 kyb_logconf.py[line:26] INFO start app...
+2019-12-02 22:15:46,310 kyb_logconf.py[line:30] INFO check_cancelBtn
+2019-12-02 22:15:47,142 kyb_logconf.py[line:41] INFO check_skipBtn
+2019-12-02 22:15:47,294 kyb_logconf.py[line:45] INFO no skipBtn
+2019-12-02 22:15:47,294 kyb_logconf.py[line:53] INFO start login
+2019-12-02 22:18:18,399 kyb_logconf.py[line:27] INFO start app...
+2019-12-02 22:18:42,569 kyb_logconf.py[line:32] INFO check_cancelBtn
+2019-12-02 22:18:43,713 kyb_logconf.py[line:43] INFO check_skipBtn
+2019-12-02 22:18:45,695 kyb_logconf.py[line:56] INFO start login
+2019-12-02 22:18:48,939 kyb_logconf.py[line:60] INFO login finished
