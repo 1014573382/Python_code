@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xml文件节点一般包括三类：1.元素节点 2.文本节点 3.属性节点-->
+<class>
+    <student>
+        <name>Jack</name>
+        <age>28</age>
+        <city>Beijing</city>
+    </student>
+
+    <student>
+        <name>Bob</name>
+        <age>25</age>
+        <city>Tianjin</city>
+    </student>
+
+    <student>
+        <name>Harry</name>
+        <age>23</age>
+        <city>Ghuangzhou</city>
+    </student>
+
+    <teacher>
+        <name>Marry</name>
+        <age>33</age>
+        <city>Changsha</city>
+    </teacher>
+
+    <account>
+        <login username="student" password="123456"/>
+        <login username="teacher" password="888888"/>
+    </account>
+</class>

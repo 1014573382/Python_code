@@ -1,0 +1,57 @@
+用selenium做自动化，有时候会遇到需要模拟鼠标操作才能进行的情况，比如单击、双击、点击鼠标右键、拖拽等等。而selenium给我们提供了一个类来处理这类事件——ActionChains
+selenium.webdriver.common.action_chains.ActionChains(driver)
+这个类基本能够满足我们所有对鼠标操作的需求。
+
+1.ActionChains基本用法
+首先需要了解ActionChains的执行原理，当你调用ActionChains的方法时，不会立即执行，而是会将所有的操作按顺序存放在一个队列里，当你调用perform()方法时，队列中的时间会依次执行。
+
+两种调用方法：
+链式写法：
+menu = driver.find_element_by_css_selector(".nav")
+hidden_submenu =  driver.find_element_by_css_selector(".nav #submenu1")
+ 
+ActionChains(driver).move_to_element(menu).click(hidden_submenu).perform()
+
+分步写法：
+menu = driver.find_element_by_css_selector(".nav")
+hidden_submenu = driver.find_element_by_css_selector(".nav #submenu1")
+ 
+actions = ActionChains(driver)
+actions.move_to_element(menu)
+actions.click(hidden_submenu)
+actions.perform()
+
+两种写法本质是一样的，ActionChains都会按照顺序执行所有的操作。
+
+
+2.ActionChains方法列表
+
+click(on_element=None) ——单击鼠标左键
+
+click_and_hold(on_element=None) ——点击鼠标左键，不松开
+
+context_click(on_element=None) ——点击鼠标右键
+
+double_click(on_element=None) ——双击鼠标左键
+
+drag_and_drop(source, target) ——拖拽到某个元素然后松开
+
+drag_and_drop_by_offset(source, xoffset, yoffset) ——拖拽到某个坐标然后松开
+
+key_down(value, element=None) ——按下某个键盘上的键
+
+key_up(value, element=None) ——松开某个键
+
+move_by_offset(xoffset, yoffset) ——鼠标从当前位置移动到某个坐标
+
+move_to_element(to_element) ——鼠标移动到某个元素
+
+move_to_element_with_offset(to_element, xoffset, yoffset) ——移动到距某个元素（左上角坐标）多少距离的位置
+
+perform() ——执行链中的所有动作
+
+release(on_element=None) ——在某个元素位置松开鼠标左键
+
+send_keys(*keys_to_send) ——发送某个键到当前焦点的元素
+
+send_keys_to_element(element, *keys_to_send) ——发送某个键到指定元素 

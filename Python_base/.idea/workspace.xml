@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba670bc-da56-49dd-ae0b-3919c713a42a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/all_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/login_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/Comprehensive_practice/mail_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/List.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/alert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/cookie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_css_selector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_link_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/find_by_xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/hover_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/test_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/testsuit_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/unit_test_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/basic_operation/wait2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/practise/AutoTest_project/Website/test_case/model/myunit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium/practise/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_test/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +52,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/base_practise/dict_poeration.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -37,9 +74,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="300" />
-    <option name="y" value="7" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="102" />
+    <option name="y" value="38" />
     <option name="width" value="1130" />
     <option name="height" value="701" />
   </component>
@@ -49,22 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_base" type="462c0819:PsiDirectoryNode" />
-              <item name="base_practise" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -107,15 +129,22 @@
       <option name="project" value="LOCAL" />
       <updated>1601549655323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="python相关文件">
+      <created>1601549885815</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601549885815</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="7" width="1130" height="701" extended-state="0" />
+    <frame x="102" y="38" width="1130" height="701" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32967034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -142,7 +171,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/base_practise/dict_poeration.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
