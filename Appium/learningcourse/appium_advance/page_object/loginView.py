@@ -1,5 +1,5 @@
-from appium_advance.page_object.desired_caps import appium_desired
-from appium_advance.page_object.common_fun import Common
+from learningcourse.appium_advance.page_object.desired_caps import appium_desired
+from learningcourse.appium_advance.page_object.common_fun import Common
 from selenium.webdriver.common.by import By
 import logging
 from time import sleep

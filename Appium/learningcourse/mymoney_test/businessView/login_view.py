@@ -1,8 +1,8 @@
-from basic_fun.common_fun import Common
+from learningcourse.mymoney_test.basic_fun.common_fun import Common
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
-from basic_fun import desired_capability
+from learningcourse.mymoney_test.basic_fun import desired_capability
 import logging
 import time
 

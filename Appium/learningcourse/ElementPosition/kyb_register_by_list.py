@@ -1,4 +1,4 @@
-from ElementPosition.capability import driver
+from learningcourse.ElementPosition.capability import driver
 import random
 from time import sleep
 

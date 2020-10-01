@@ -1,4 +1,4 @@
-from ElementPosition.capability import driver
+from learningcourse.ElementPosition.capability import driver
 
 driver.find_element_by_id('com.tal.kaoyan:id/login_register_text').click()
 # 假定‘添加头像’元素没有id属性，必须通过找到其父元素，通过相对定位方式来进行定位

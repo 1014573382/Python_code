@@ -1,4 +1,4 @@
-from ElementPosition.capability import driver
+from learningcourse.ElementPosition.capability import driver
 from time import sleep
 
 def get_size():

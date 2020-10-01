@@ -1,4 +1,4 @@
-from ElementPosition.capability import driver
+from learningcourse.ElementPosition.capability import driver
 
 # driver.find_element_by_android_uiautomator\
 #     ('new UiSelector().resourceId("com.tal.kaoyan:id/login_email_edittext")').send_keys('guoxly')

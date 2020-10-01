@@ -1,5 +1,5 @@
-from appium_advance.page_object.myunit import StartEnd
-from appium_advance.page_object.loginView import LoginView
+from learningcourse.appium_advance.page_object.myunit import StartEnd
+from learningcourse.appium_advance.page_object.loginView import LoginView
 import logging
 import unittest
 

@@ -1,7 +1,7 @@
-from common.common_funs import Common
+from learningcourse.comprehensive_practice.common.common_funs import Common
 import logging
 from selenium.webdriver.common.by import By
-from common.desired_caps import appium_desired
+from learningcourse.comprehensive_practice.common.desired_caps import appium_desired
 from selenium.common.exceptions import NoSuchElementException
 
 class LoginView(Common):

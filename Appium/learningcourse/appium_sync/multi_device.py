@@ -1,7 +1,7 @@
 from appium import webdriver
 import yaml
 from time import ctime
-from appium_sync.kyb_test import KybTest
+from learningcourse.appium_sync.kyb_test import KybTest
 
 with open('desired_caps.yaml', 'r') as file:
     data = yaml.load(file, Loader=yaml.FullLoader)

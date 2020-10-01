@@ -1,6 +1,6 @@
 import logging
-from common.desired_caps import appium_desired
-from common.common_funs import Common,By,NoSuchElementException
+from learningcourse.comprehensive_practice.common.desired_caps import appium_desired
+from learningcourse.comprehensive_practice.common.common_funs import Common,By,NoSuchElementException
 import random
 
 class RegisterView(Common):

@@ -1,5 +1,5 @@
-from appium_advance.page_object.baseView import BaseView
-from appium_advance.page_object.desired_caps import appium_desired
+from learningcourse.appium_advance.page_object.baseView import BaseView
+from learningcourse.appium_advance.page_object.desired_caps import appium_desired
 from selenium.common.exceptions import NoSuchElementException
 import logging
 from selenium.webdriver.common.by import By

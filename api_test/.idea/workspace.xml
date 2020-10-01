@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="494ed3da-57b5-4250-8019-e8745718049e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-11 22_32_23test_report.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-12 14_41_41test_report.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/report/2019-12-12 15_36_58test_report.html" afterDir="false" />
@@ -32,12 +31,8 @@
       <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/register Fail_2019-12-09 16_53_40.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/register Fail_2019-12-09 18_09_47.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/comprehensive_practice/screenshots/startApp_2019-12-08 15_12_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/mymoney_test/screenshots/_beginmymoney_2020-05-14_17-05-05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/mymoney_test/screenshots/_beginmymoney_2020-05-14_17-27-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/mymoney_test/screenshots/_beginmymoney_2020-05-16_21-24-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/mymoney_test/screenshots/_beginmymoney_2020-05-16_21-37-37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/learningcourse/mymoney_test/screenshots/_beginmymoney_2020-05-16_21-39-39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Appium/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="53" />
     <option name="y" value="44" />
     <option name="width" value="1130" />
@@ -147,7 +142,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="44" width="1130" height="701" extended-state="0" />
+    <frame x="53" y="44" width="1130" height="701" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />

@@ -1,6 +1,6 @@
 import unittest
 import logging
-from common.desired_caps import appium_desired
+from learningcourse.comprehensive_practice.common.desired_caps import appium_desired
 from  time import sleep
 
 class StartEnd(unittest.TestCase):

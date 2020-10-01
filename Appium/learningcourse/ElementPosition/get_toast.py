@@ -1,5 +1,5 @@
 # coding = utf-8
-from ElementPosition.capability import driver
+from learningcourse.ElementPosition.capability import driver
 from selenium.webdriver.support.ui import WebDriverWait
 
 driver.find_element_by_id('com.tal.kaoyan:id/login_email_edittext').clear()

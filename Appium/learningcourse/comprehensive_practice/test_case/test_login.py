@@ -1,5 +1,5 @@
-from businessView.loginView import LoginView
-from common.myunit import StartEnd
+from learningcourse.comprehensive_practice.businessView.loginView import LoginView
+from learningcourse.comprehensive_practice.common.myunit import StartEnd
 import unittest
 import logging
 

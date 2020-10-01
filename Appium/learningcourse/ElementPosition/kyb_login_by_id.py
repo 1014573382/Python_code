@@ -1,4 +1,4 @@
-from ElementPosition.capability import driver, NoSuchElementException
+from learningcourse.ElementPosition.capability import driver, NoSuchElementException
 
 def login():
 

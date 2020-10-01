@@ -1,4 +1,4 @@
-from basic_fun import server_start
+from learningcourse.mymoney_test.basic_fun import server_start
 
 
 

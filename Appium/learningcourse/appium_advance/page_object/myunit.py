@@ -1,5 +1,5 @@
 import unittest
-from appium_advance.page_object.desired_caps import appium_desired
+from learningcourse.appium_advance.page_object.desired_caps import appium_desired
 import logging
 from time import sleep
 

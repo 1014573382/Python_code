@@ -1,6 +1,6 @@
-from appium_sync.multi_appium import appium_start
-from appium_sync.multi_device import appium_desired
-from appium_sync.check_port import check_port,release_port
+from learningcourse.appium_sync.multi_appium import appium_start
+from learningcourse.appium_sync.multi_device import appium_desired
+from learningcourse.appium_sync.check_port import check_port,release_port
 import multiprocessing
 from time import sleep
 

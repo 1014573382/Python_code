@@ -1,5 +1,5 @@
-from common.myunit import StartEnd
-from businessView.registerView import RegisterView
+from learningcourse.comprehensive_practice.common.myunit import StartEnd
+from learningcourse.comprehensive_practice.businessView.registerView import RegisterView
 import logging
 import random
 import unittest

@@ -1,7 +1,7 @@
 import unittest
 import logging
-from basic_fun.desired_capability import appium_desired
-from basic_fun import server_start
+from learningcourse.mymoney_test.basic_fun.desired_capability import appium_desired
+from learningcourse.mymoney_test.basic_fun import server_start
 from time import sleep
 
 class StartEnd(unittest.TestCase):

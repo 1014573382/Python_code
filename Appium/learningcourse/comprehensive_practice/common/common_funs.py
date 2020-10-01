@@ -1,5 +1,5 @@
 import logging
-from baseView.baseView import BaseView
+from learningcourse.comprehensive_practice.baseView.baseView import BaseView
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import os
