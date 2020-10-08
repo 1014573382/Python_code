@@ -37,7 +37,7 @@ class TestDemo:
 
 # 如果想用unittest框架运行pytest测试用例：
 if __name__ == '__main__':
-    # 具体的某一文件
+    # 具体的某一文件中的所有测试用例
     pytest.main(['test_pytest.py'])
     # 具体到只运行某一个类, '-v'打印详细日志
     # pytest.main(['test_pytest.py::TestDemo', '-v'])
