@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/HogwartsSDE14/pythoncode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HogwartsSDE14/testing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HogwartsSDE14" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />

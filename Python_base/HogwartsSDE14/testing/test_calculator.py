@@ -2,30 +2,46 @@
 # @Author : guonian
 # @Time : 2020/10/12 23:18
 
-# 测试文件
-# import sys
-# print(sys.path.append('..'))
+# # 测试文件
+import sys
+print(sys.path.append('D:\Python\Python_code\Python_base\HogwartsSDE14'))
 import pytest
 
-from HogwartsSDE14.pythoncode.calculator import Calculator
+from pythoncode.calculator import Calculator
 
-@pytest.mark.add
-def test_add():
-    cal = Calculator()
-    assert 3 == cal.add(1, 2)
+class TestCal():
 
-@pytest.mark.add
-def test_add1():
-    cal = Calculator()
-    assert 4 == cal.add(2, 2)
+    def setup_class(self):
+        self.cal = Calculator()
+        print("测试开始")
 
-@pytest.mark.div
-def test_div():
-    cal = Calculator()
-    assert 2 == cal.div(4,2)
+    def teardown_class(self):
+        print("测试结束")
 
-# class TestCalc:
-#     def setup_class(self):
-#         self.cal = Calculator()
+    @pytest.mark.add
+    def test_add(self):
+        # cal = Calculator()
+        assert 3 == self.cal.add(1, 2)
+
+    # 加上ids参数，表示给测试用例起别名
+    @pytest.mark.parametrize('a, b, result',[
+        (1,2,3),
+        (100,50,150),
+        (0.1, 0.1, 0.2),
+        (-1,-1,-2)
+    ]
+        ,ids=['int','bignum','float','fushu'])
+    @pytest.mark.add
+    def test_add1(self, a, b, result):
+        # cal = Calculator()
+        assert result == self.cal.add(a, b)
+
+    # 加上@pytest.mark.flaky()装饰器，表示失败重试，
+    # reruns=3表示失败重试次数，reruns_delay=2表示两次重试之间的延迟时间
+    @pytest.mark.flaky(reruns=3, reruns_delay=2)
+    @pytest.mark.div
+    def test_div(self):
+        # cal = Calculator()
+        assert 2 == self.cal.div(4,2)
 
 
