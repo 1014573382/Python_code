@@ -6,7 +6,7 @@ import yaml
 # print(os.listdir('../data'))
 # print(os.getcwd())
 
-def queryBlacklist():
+def test_queryBlacklist():
 
     with open('../data/userinfo.yaml', encoding='utf-8') as f:
         userinfo = yaml.load(f, Loader=yaml.FullLoader)
@@ -23,4 +23,4 @@ def queryBlacklist():
     print(r.json())
 
 if __name__ == '__main__':
-    queryBlacklist()
+    test_queryBlacklist()

@@ -45,3 +45,18 @@ class TestCal():
         assert 2 == self.cal.div(4,2)
 
 
+    # assume断言，前面的失败后，后面的断言还会继续执行
+    # assert 断言，第一条失败后，后面将停止运行
+    def test_assume(self):
+
+        print("登录操作")
+        pytest.assume(1 == 2)
+        print("搜索操作")
+        pytest.assume(2 == 2)
+        print("加购操作")
+        pytest.assume(3 == 3)
+
+
+
+
+
