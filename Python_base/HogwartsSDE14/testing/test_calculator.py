@@ -4,10 +4,20 @@
 
 # # 测试文件
 import sys
+
+import yaml
+
 print(sys.path.append('D:\Python\Python_code\Python_base\HogwartsSDE14'))
 import pytest
 
 from pythoncode.calculator import Calculator
+
+
+with open('./datas/calc.yml') as f:
+    datas = yaml.safe_load(f)
+    myids = datas.keys()
+    mydatas = datas.values()
+
 
 class TestCal():
 
@@ -24,17 +34,22 @@ class TestCal():
         assert 3 == self.cal.add(1, 2)
 
     # 加上ids参数，表示给测试用例起别名
-    @pytest.mark.parametrize('a, b, result',[
-        (1,2,3),
-        (100,50,150),
-        (0.1, 0.1, 0.2),
-        (-1,-1,-2)
-    ]
-        ,ids=['int','bignum','float','fushu'])
+    # 以下参数使用yaml进行了参数化，已经移到datas/calc.yml中,然后使用参数mydatas和myids进行的替换
+    @pytest.mark.parametrize('a, b, result', mydatas
+    #                          [
+    #     (1,2,3),
+    #     (100,50,150),
+    #     (0.1, 0.1, 0.2),
+    #     (-1,-1,-2)
+    # ]
+    #     ,ids=['int','bignum','float','fushu']
+                             ,ids=myids)
     @pytest.mark.add
     def test_add1(self, a, b, result):
         # cal = Calculator()
         assert result == self.cal.add(a, b)
+
+
 
     # 加上@pytest.mark.flaky()装饰器，表示失败重试，
     # reruns=3表示失败重试次数，reruns_delay=2表示两次重试之间的延迟时间
