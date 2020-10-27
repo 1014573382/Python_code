@@ -4,19 +4,35 @@
 
 # # 测试文件
 import sys
-
 import yaml
+import pytest
+from pythoncode.calculator import Calculator
 
 print(sys.path.append('D:\Python\Python_code\Python_base\HogwartsSDE14'))
-import pytest
-
-from pythoncode.calculator import Calculator
 
 
 with open('./datas/calc.yml') as f:
     datas = yaml.safe_load(f)
     myids = datas.keys()
     mydatas = datas.values()
+
+
+def get_steps():
+    with open('./datas/steps.yml')as f:
+        steps = yaml.safe_load(f)
+    return steps
+
+cal = Calculator()
+
+def steps(a, b, result):
+    steps1 = get_steps()
+    for step in steps1:
+        if 'add' == step:
+            assert result == cal.add(a, b)
+        elif 'add1' == step:
+            assert result == cal.add1(a, b)
+        elif 'add2' == step:
+            assert result == cal.add2(a, b)
 
 
 class TestCal():
@@ -33,6 +49,7 @@ class TestCal():
         # cal = Calculator()
         assert 3 == self.cal.add(1, 2)
 
+
     # 加上ids参数，表示给测试用例起别名
     # 以下参数使用yaml进行了参数化，已经移到datas/calc.yml中,然后使用参数mydatas和myids进行的替换
     @pytest.mark.parametrize('a, b, result', mydatas
@@ -47,7 +64,10 @@ class TestCal():
     @pytest.mark.add
     def test_add1(self, a, b, result):
         # cal = Calculator()
-        assert result == self.cal.add(a, b)
+        # assert result == self.cal.add(a, b)
+        # assert result == self.cal.add1(a, b)
+        # assert result == self.cal.add2(a, b)
+        steps(a, b, result)
 
 
 
