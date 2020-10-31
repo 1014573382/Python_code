@@ -1,0 +1,5 @@
+caseSeq,apiType,apiSeq,apiName,priority,url,methods,parameter,expectValue
+C001,Http methods,V0.9.2,GET Request guoguo1,H,/get,GET,user=guoguo1,guoguo1
+C002,Http methods,V0.9.2,POST Request guonian1,H,/post,POST,user:guonian1,guonian1
+C003,Http methods,V0.9.2,GET Request guoguo2,H,/get,GET,user=guoguo2,guoguo2
+C004,Http methods,V0.9.2,POST Request guonian2,H,/post,POST,user:guonian2,guonian2
