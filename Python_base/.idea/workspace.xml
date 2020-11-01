@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba670bc-da56-49dd-ae0b-3919c713a42a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/check_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/test_dependency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/test_ordering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_severity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HogwartsSDE14/pytest.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HogwartsSDE14/testing/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/test_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-5.3.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-5.3.1.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-5.3.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-5.3.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PyYAML-5.3.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/_yaml.cp37-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/constructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/constructor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/cyaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/cyaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/dumper.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/dumper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/emitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/emitter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/representer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/representer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yaml/scanner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_test/xwbank/Dishuidai/core/queryBlacklist.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api_test/xwbank/Dishuidai/core/queryBlacklist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,46 +15,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_calculator.py">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="49" selection-start-line="49" selection-end-line="54" selection-end-column="29" />
+            <state relative-caret-position="156">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2080">
+              <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+              <folding>
+                <element signature="e#69#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_param.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state>
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#70#83#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/check_demo.py">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_severity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_ordering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_dependency.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="156">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#69#82#0" expanded="true" />
               </folding>
@@ -83,49 +69,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_login.py">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_cart.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base_practise/test_unittest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="e#69#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="78">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -152,27 +99,38 @@
         <option value="$PROJECT_DIR$/base_practise/parametrize.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/pythoncode/init.py" />
-        <option value="$PROJECT_DIR$/HogwartsSDE14/pythoncode/calculator.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_yeild.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_search.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_login.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_cart.py" />
         <option value="$PROJECT_DIR$/base_practise/test_pytest.py" />
-        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py" />
-        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_calculator.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_ordering.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_dependency.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/pytest.ini" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/check_demo.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/datas/steps.yml" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/pythoncode/calculator.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/datas/calc.yml" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/datas/test/data.yml" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_env.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/datas/dev/data.yml" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_param.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/datas/param.yml" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_calculator.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_allure_feature.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_allure_feature_story.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_severity.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="10" />
-    <option name="width" value="1226" />
-    <option name="height" value="704" />
+    <option name="x" value="25" />
+    <option name="y" value="16" />
+    <option name="width" value="1318" />
+    <option name="height" value="652" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -205,7 +163,20 @@
               <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_base" type="462c0819:PsiDirectoryNode" />
               <item name="HogwartsSDE14" type="462c0819:PsiDirectoryNode" />
+              <item name="pythoncode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_base" type="462c0819:PsiDirectoryNode" />
+              <item name="HogwartsSDE14" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_base" type="462c0819:PsiDirectoryNode" />
+              <item name="HogwartsSDE14" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="allure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,13 +190,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Python\Python_code\Python_base\HogwartsSDE14\testing" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python\Python_code\Python_base\HogwartsSDE14" />
       <recent name="D:\Python\Python_code\Python_base\base_practise" />
       <recent name="D:\Python\Python_code\Python_base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\Python_code\Python_base\HogwartsSDE14\testing\allure" />
+      <recent name="D:\Python\Python_code\Python_base\HogwartsSDE14\testing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -240,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_dependency.py">
+  <component name="RunManager" selected="Python tests.pytest for test_param.test_param">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_calculator.TestCal" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_calculator.TestCal.test_param" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,11 +245,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calculator.TestCal&quot;" />
+      <option name="_new_target" value="&quot;test_calculator.TestCal.test_param&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_calculator.TestCal.test_assume" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_calculator.test_param" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,11 +260,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calculator.TestCal.test_assume&quot;" />
+      <option name="_new_target" value="&quot;test_calculator.test_param&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_calculator.TestCal.test_div" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_env.test_case" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,11 +275,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calculator.TestCal.test_div&quot;" />
+      <option name="_new_target" value="&quot;test_env.test_case&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_dependency.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_param.test_param" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,11 +290,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/HogwartsSDE14/testing/test_dependency.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_param.test_param&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_ordering.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_env.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,17 +305,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/HogwartsSDE14/testing/test_ordering.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/HogwartsSDE14/testing/test_env.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_dependency.py" />
-        <item itemvalue="Python tests.pytest in test_ordering.py" />
-        <item itemvalue="Python tests.pytest for test_calculator.TestCal.test_div" />
-        <item itemvalue="Python tests.pytest for test_calculator.TestCal.test_assume" />
-        <item itemvalue="Python tests.pytest for test_calculator.TestCal" />
+        <item itemvalue="Python tests.pytest for test_param.test_param" />
+        <item itemvalue="Python tests.pytest for test_calculator.TestCal.test_param" />
+        <item itemvalue="Python tests.pytest for test_calculator.test_param" />
+        <item itemvalue="Python tests.pytest in test_env.py" />
+        <item itemvalue="Python tests.pytest for test_env.test_case" />
       </list>
     </recent_temporary>
   </component>
@@ -428,58 +400,94 @@
       <option name="project" value="LOCAL" />
       <updated>1603036998827</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="pytest练习">
+      <created>1603638322294</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603638322294</updated>
+    </task>
+    <task id="LOCAL-00012" summary="pytest练习-参数化和配置文件">
+      <created>1603813073444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603813073444</updated>
+    </task>
+    <task id="LOCAL-00013" summary="pytest练习-参数化和配置文件">
+      <created>1603814142962</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603814142962</updated>
+    </task>
+    <task id="LOCAL-00014" summary="pytest练习-hook函数">
+      <created>1604155113186</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604155113187</updated>
+    </task>
+    <task id="LOCAL-00015" summary="pytest练习-hook函数">
+      <created>1604219883996</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604219883996</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_ordering_py - 2020.10.25 at 22h 08m 46s.xml">
-      <configuration name="pytest in test_ordering.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_param_test_param - 2020.11.01 at 16h 19m 41s.xml">
+      <configuration name="pytest for test_param.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_ordering_py - 2020.10.25 at 22h 10m 36s.xml">
-      <configuration name="pytest in test_ordering.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_param_test_param - 2020.11.01 at 16h 20m 16s.xml">
+      <configuration name="pytest for test_param.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_ordering_py - 2020.10.25 at 22h 11m 15s.xml">
-      <configuration name="pytest in test_ordering.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_param_test_param - 2020.11.01 at 16h 23m 48s.xml">
+      <configuration name="pytest for test_param.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_ordering_py - 2020.10.25 at 22h 16m 42s.xml">
-      <configuration name="pytest in test_ordering.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_param_test_param - 2020.11.01 at 16h 28m 26s.xml">
+      <configuration name="pytest for test_param.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_ordering_py - 2020.10.25 at 22h 17m 33s.xml">
-      <configuration name="pytest in test_ordering.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_calculator_test_param - 2020.11.01 at 16h 33m 56s.xml">
+      <configuration name="pytest for test_calculator.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_dependency_py - 2020.10.25 at 22h 30m 40s.xml">
-      <configuration name="pytest in test_dependency.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_calculator_test_param - 2020.11.01 at 16h 34m 59s.xml">
+      <configuration name="pytest for test_calculator.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_dependency_py - 2020.10.25 at 22h 32m 40s.xml">
-      <configuration name="pytest in test_dependency.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_calculator_test_param - 2020.11.01 at 16h 35m 54s.xml">
+      <configuration name="pytest for test_calculator.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_dependency_py - 2020.10.25 at 22h 33m 46s.xml">
-      <configuration name="pytest in test_dependency.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_calculator_TestCal_test_param - 2020.11.01 at 16h 36m 16s.xml">
+      <configuration name="pytest for test_calculator.TestCal.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_dependency_py - 2020.10.25 at 22h 34m 42s.xml">
-      <configuration name="pytest in test_dependency.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_calculator_TestCal_test_param - 2020.11.01 at 16h 37m 04s.xml">
+      <configuration name="pytest for test_calculator.TestCal.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_dependency_py - 2020.10.25 at 22h 35m 11s.xml">
-      <configuration name="pytest in test_dependency.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_param_test_param - 2020.11.01 at 16h 41m 10s.xml">
+      <configuration name="pytest for test_param.test_param" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="317" y="23" width="1226" height="704" extended-state="0" />
+    <frame x="25" y="16" width="1318" height="652" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.239899" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23515625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11188811" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49922958" weight="0.6158301" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965397" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.22045855" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5263158" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31853282" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007704" side_tool="true" weight="0.24912281" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32818532" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -534,7 +542,10 @@
     <MESSAGE value="basic pytest" />
     <MESSAGE value="pytest参数化练习" />
     <MESSAGE value="pytest fixture练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest fixture练习" />
+    <MESSAGE value="pytest练习" />
+    <MESSAGE value="pytest练习-参数化和配置文件" />
+    <MESSAGE value="pytest练习-hook函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="pytest练习-hook函数" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/base_practise/report.html">
@@ -635,24 +646,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/pythoncode/calculator.py">
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_cart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="338">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py">
+    <entry file="file://$PROJECT_DIR$/base_practise/test_unittest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="1482">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#69#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_login.py">
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/result/0a046fa7-ac95-4d2b-871b-dbc56d892459-container.json" />
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/result/0ab399f4-327c-419b-8a92-f5ef91532737-result.json" />
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_ordering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="234">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_dependency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="e#69#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -663,61 +689,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_cart.py">
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="754">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base_practise/test_unittest.py">
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/check_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="234">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/datas/steps.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/pythoncode/calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/datas/test/data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/datas/dev/data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/datas/param.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/result/5d095bb2-6be8-4bfb-9623-487b7121276f-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/datas/calc.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2080">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
           <folding>
-            <element signature="e#69#84#0" expanded="true" />
+            <element signature="e#69#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_dependency.py">
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_param.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="390">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure_report/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_severity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#69#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_ordering.py">
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="49" selection-start-line="49" selection-end-line="54" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/check_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state>
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#70#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
