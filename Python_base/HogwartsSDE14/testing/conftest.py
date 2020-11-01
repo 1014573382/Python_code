@@ -2,8 +2,10 @@
 # @Author : guonian
 # @Time : 2020/10/14 22:16
 from typing import List
-
 import pytest
+import yaml
+from _pytest.python import Metafunc
+
 
 # fixture的可选参数scope，默认是function级别的
 # @pytest.fixture(scope='session')
@@ -16,7 +18,7 @@ import pytest
 
 
 # 方法加上pytest的装饰器，可以将此函数传入想要调用此函数得位置
-import yaml
+
 
 
 @pytest.fixture(params=['user1', 'user2', 'user3'])
@@ -49,7 +51,7 @@ def pytest_collection_modifyitems(
             item.add_marker(pytest.mark.sub)
 
 
-# 命令行去添加一个参数,运行时获取default=''设置的值
+# hook函数：命令行去添加一个参数,运行时获取default=''设置的值
 # parser: 用户命令行参数与ini文件值的解析器
 def pytest_addoption(parser):
     mygroup = parser.getgroup("hogwarts")     #group 将下面所有的 option都展示在这个group下。
@@ -80,3 +82,11 @@ def cmdoption(request):
         datas = yaml.safe_load(f)
 
     return  myenv,datas
+
+# 可以实现自定义动态参数化方案或者扩展，对参数化进行简化，test_param.py文件中是引用
+def pytest_generate_tests(metafunc: "Metafunc") -> None:
+    if 'param' in metafunc.fixturenames:
+        metafunc.parametrize("param",
+                             metafunc.module.mydatas,
+                             ids=metafunc.module.myids,
+                             scope='function')
