@@ -20,10 +20,14 @@ def fun():
 #     print("购物车用例3")
 
 # 参数化结合fixture使用：
-# 情况一：传入值和数据
+# 正常的情况一：传入值和数据
 # 情况二：传入一个fixture方法，将数据传入到fixture方法中，
 #         fixture方法使用request参数来接收这组数据，在方法体里面使用
 #             '''request.param'''来使用这个数据
+# indirect默认false，indirect=True 的话，则可以在参数化中传入一个方法的名字，以下传入的是fixture装饰器方法login
+# 后面的方法数据是传入到login方法体里面的
+
+# 下面第一个参数化是传入的fixture方法，第二个是传入值和数据，结果会进行笛卡尔积相乘
 @pytest.mark.parametrize('login', [
     ('username1','password1'),
     ('username2','password2')
