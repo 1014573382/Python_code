@@ -2,7 +2,7 @@
 # @Author : guonian
 # @Time : 2020/11/01 17:47
 
-# @allure.title("登录成功")给测试用例命名
+# @allure.title("登录成功")给测试用例命名，生成报告中可查看
 
 import allure
 import pytest
@@ -10,9 +10,12 @@ import pytest
 
 @allure.feature("搜索模块")
 class TestSearch():
+
+    @allure.title("搜索模块用例一")
     def test_case1(self):
         print("case1")
 
+    @allure.title("搜索模块用例二")
     def test_case2(self):
         print("case2")
 

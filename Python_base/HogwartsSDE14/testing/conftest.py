@@ -19,15 +19,16 @@ from _pytest.python import Metafunc
 
 # 方法加上pytest的装饰器，可以将此函数传入想要调用此函数得位置
 
-
-# 在fixture中增加@pytest.fixture(params=[1,2,3, 'user2', 'user3'])
-# 在方法参数写request，方法体里面使用request.param接收参数
-# 调用fixture 装饰器的方法，会生成fixture参数化对应条数的测试用例
+# 参数化结合fixture使用：
+# 情况一：传入值和数据
+# 情况二：传入一个fixture方法，将数据传入到fixture方法中，
+#         fixture方法使用request参数来接收这组数据，在方法体里面使用
+#             '''request.param'''来使用这个数据
 
 @pytest.fixture(params=['user1', 'user2', 'user3'])
-def login(request):   # request 入参接受params传过来的参数
+def login(request):
     print("登录方法")
-    print(request.param)   # 通过 request.param 来使用这个数据
+    print(request.param)
     # yield 激活fixture teardown方法
     yield ['username', 'password'] # 相当于return
     print("teardown")
