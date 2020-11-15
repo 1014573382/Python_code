@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba670bc-da56-49dd-ae0b-3919c713a42a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/test_comprehensive_practise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_attach.py" beforeDir="false" afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_attach.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py" beforeDir="false" afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python_base" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -28,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="-290">
+              <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
               <folding>
                 <element signature="e#69#92#0" expanded="true" />
               </folding>
@@ -37,20 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/test_comprehensive_practise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="260">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <element signature="e#69#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_attach.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="74">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -98,18 +102,19 @@
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_allure_feature.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_allure_feature_story.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_severity.py" />
-        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/test_parametrize_fixture.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/pytest.ini" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_attach.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/test_comprehensive_practise.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="129" />
-    <option name="y" value="39" />
-    <option name="width" value="1245" />
+    <option name="x" value="62" />
+    <option name="y" value="146" />
+    <option name="width" value="1279" />
     <option name="height" value="652" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -137,28 +142,7 @@
               <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_base" type="462c0819:PsiDirectoryNode" />
               <item name="HogwartsSDE14" type="462c0819:PsiDirectoryNode" />
-              <item name="pythoncode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_base" type="462c0819:PsiDirectoryNode" />
-              <item name="HogwartsSDE14" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_base" type="462c0819:PsiDirectoryNode" />
-              <item name="HogwartsSDE14" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="allure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_base" type="462c0819:PsiDirectoryNode" />
-              <item name="HogwartsSDE14" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="allure" type="462c0819:PsiDirectoryNode" />
-              <item name="attach_result" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_allure_attach.py">
+  <component name="RunManager" selected="Python tests.pytest for test_comprehensive_practise.test_steps_demo">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,33 +200,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_parametrize_fixture.test_cart1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_comprehensive_practise.test_steps_demo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HogwartsSDE14/testing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HogwartsSDE14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_parametrize_fixture.test_cart1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_parametrize_fixture.test_cart2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Python_base" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HogwartsSDE14/testing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_parametrize_fixture.test_cart2&quot;" />
+      <option name="_new_target" value="&quot;test_comprehensive_practise.test_steps_demo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -276,6 +245,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_comprehensive_practise.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python_base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HogwartsSDE14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/HogwartsSDE14/test_comprehensive_practise.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_comprehensive_practise.test_steps_demo" />
+        <item itemvalue="Python tests.pytest in test_comprehensive_practise.py" />
         <item itemvalue="Python tests.pytest in test_allure_attach.py" />
         <item itemvalue="Python tests.pytest for test_parametrize_fixture.test_cart3" />
         <item itemvalue="Python tests.pytest in test_login.py" />
-        <item itemvalue="Python tests.pytest for test_parametrize_fixture.test_cart1" />
-        <item itemvalue="Python tests.pytest for test_parametrize_fixture.test_cart2" />
       </list>
     </recent_temporary>
   </component>
@@ -431,57 +415,64 @@
       <option name="project" value="LOCAL" />
       <updated>1605108131794</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="pytest练习-allure attach feature">
+      <created>1605424640143</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605424640143</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_calculator_TestCal_test_param - 2020.11.01 at 16h 37m 04s.xml">
-      <configuration name="pytest for test_calculator.TestCal.test_param" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 19m 23s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_param_test_param - 2020.11.01 at 16h 41m 10s.xml">
-      <configuration name="pytest for test_param.test_param" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 27m 46s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_cart_test_data - 2020.11.11 at 21h 46m 20s.xml">
-      <configuration name="pytest for test_cart.test_data" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 30m 17s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_cart_test_cart3 - 2020.11.11 at 21h 46m 35s.xml">
-      <configuration name="pytest for test_cart.test_cart3" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 32m 06s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_cart_test_cart2 - 2020.11.11 at 21h 52m 51s.xml">
-      <configuration name="pytest for test_cart.test_cart2" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 33m 11s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_cart_test_cart1 - 2020.11.11 at 21h 53m 38s.xml">
-      <configuration name="pytest for test_cart.test_cart1" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 35m 33s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_cart_test_cart3 - 2020.11.11 at 22h 06m 02s.xml">
-      <configuration name="pytest for test_cart.test_cart3" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 38m 28s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2020.11.11 at 22h 08m 38s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 40m 15s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_parametrize_fixture_test_cart3 - 2020.11.11 at 22h 23m 07s.xml">
-      <configuration name="pytest for test_parametrize_fixture.test_cart3" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 42m 32s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_allure_attach_py - 2020.11.15 at 15h 00m 34s.xml">
-      <configuration name="pytest in test_allure_attach.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_comprehensive_practise_test_steps_demo - 2020.11.15 at 16h 45m 39s.xml">
+      <configuration name="pytest for test_comprehensive_practise.test_steps_demo" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="213" y="75" width="1245" height="652" extended-state="0" />
+    <frame x="62" y="146" width="1279" height="652" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24357912" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49710983" visible="true" weight="0.272361" />
+      <window_info id="Structure" order="1" sideWeight="0.50289017" side_tool="true" weight="0.23690572" />
+      <window_info id="Favorites" order="2" sideWeight="0.50289017" side_tool="true" weight="0.23690572" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49922958" weight="0.3011583" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32818532" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49922958" weight="0.6389961" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965397" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.22045855" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33204633" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007704" side_tool="true" weight="0.24912281" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32818532" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -542,7 +533,8 @@
     <MESSAGE value="pytest练习-参数化和配置文件" />
     <MESSAGE value="pytest练习-hook函数" />
     <MESSAGE value="pytest练习-allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest练习-allure" />
+    <MESSAGE value="pytest练习-allure attach feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="pytest练习-allure attach feature" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/base_practise/report.html">
@@ -609,13 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_yeild.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -776,13 +761,6 @@
     <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/debug.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_parametrize_fixture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -797,16 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#69#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/allure_commons/_allure.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -814,10 +782,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/test_yeild.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding>
+            <element signature="e#69#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_feature_story.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HogwartsSDE14/testing/allure/test_allure_attach.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="74">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/test_comprehensive_practise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#69#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

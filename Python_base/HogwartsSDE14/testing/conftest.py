@@ -40,7 +40,7 @@ def pytest_collection_modifyitems(
     print(items)
     print(len(items))
     # 倒序执行 items里面的测试用例
-    items.reverse()
+    # items.reverse()
     # 含有中文的测试用例名称，改写编码格式（nodeid是用例名称）：
     for item in items:
         item.name = item.name.encode('utf-8').decode('unicode-escape')
