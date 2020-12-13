@@ -1,0 +1,37 @@
+create:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token=${token}"
+  "json":
+    "userid": ${userid}
+    "name": ${name}
+    "mobile": ${mobile}
+    "department":
+      - ${department}
+    "gender": "1"
+    "enable": 1
+    "email": "${mobile}@163.com"
+    "telephone": "020-123456"
+    "address": "广州市海珠区新港中路"
+    "main_department": 1
+
+get:
+  "method": "get"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=${token}&userid=${userid}"
+
+
+update:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token=${token}"
+  "json":
+    "userid": ${userid}
+    # "name": name,
+    "department":
+      - 5
+    "position": "产品研发工程师"
+    "gender": "2"
+    "is_leader_in_dept":
+      - 0
+    "enable": 1
+    "telephone": "020-1234567"
+    "address": "成都市锦江区通宝大街"
+    "main_department": 5

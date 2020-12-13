@@ -23,11 +23,11 @@ def test_create_data():
     girl = '秀娟英华慧巧美娜静淑惠珠翠雅芝玉萍红娥玲芬芳燕彩春菊兰凤洁梅琳素云莲真环雪荣爱妹霞香月莺媛艳瑞凡佳嘉琼勤珍贞莉桂娣叶璧璐娅琦晶妍茜秋珊莎锦黛青倩婷姣婉娴瑾颖露瑶怡婵雁蓓纨仪荷丹蓉眉君琴蕊薇菁梦岚苑婕馨瑗琰韵融园艺咏卿聪澜纯毓悦昭冰爽琬茗羽希宁欣飘育滢馥筠柔竹霭凝晓欢霄枫芸菲寒伊亚宜可姬舒影荔枝思丽'
     boy = '伟刚勇毅俊峰强军平保东文辉力明永健世广志义兴良海山仁波宁贵福生龙元全国胜学祥才发武新利清飞彬富顺信子杰涛昌成康星光天达安岩中茂进林有坚和彪博诚先敬震振壮会思群豪心邦承乐绍功松善厚庆磊民友裕河哲江超浩亮政谦亨奇固之轮翰朗伯宏言若鸣朋斌梁栋维启克伦翔旭鹏泽晨辰士以建家致树炎德行时泰盛雄琛钧冠策腾楠榕风航弘'
     # timestamp = int(time.time())
-    data = [("20201209aa" + str(x),
+    data = [("20201212aaaa" + str(x),
              # "薛之谦",
              str(firstName[random.choice(range(len(firstName)))] + girl[random.choice(range(len(girl)))] + boy[random.choice(range(len(boy)))]),
-             "13988%06d"%x) for x in range(3)]
-    print(data)
+             "13952%06d"%x) for x in range(3)]
+    # print(data)
     return data
 
 
@@ -62,7 +62,7 @@ class TestWework:
         """
         # access_token = self.get_token()
         if department == None:
-            department = [1,2]
+            department = [3]
         request_body = {
             "userid": userid,
             "name": name,
@@ -104,7 +104,7 @@ class TestWework:
         request_body = {
             "userid": userid,
             "name": name,
-            "department": [3],
+            "department": [4],
             "position": "软件开发工程师",
             # "mobile": mobile,
             "gender": "2",
@@ -112,7 +112,7 @@ class TestWework:
             "enable": 1,
             "telephone": "020-1234567",
             "address": "成都市锦江区通宝大街",
-            "main_department": 1
+            "main_department": 4
         }
 
         r = requests.post(f"https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token={token}",json=request_body)
@@ -141,9 +141,7 @@ class TestWework:
         :param token:
         :return:
         """
-        # userid = 'MaoQin12'
-        # name = '毛琴'
-        # mobile = '13300001122'
+        # 创建成员，如果创建过程中手机号重复，则删除重复的成员
         try:
             assert "created" == self.test_create(token, userid, mobile, name)['errmsg']
         except AssertionError as e:
@@ -158,8 +156,9 @@ class TestWework:
         assert name == self.test_get(token, userid)["name"]
         assert "updated" == self.test_update(token, userid, name)["errmsg"]
         assert name == self.test_get(token, userid)["name"]
-        assert "deleted" == self.test_delete(token,userid)["errmsg"]
-        assert 60111 == self.test_get(token, userid)["errcode"]
+        # assert "deleted" == self.test_delete(token,userid)["errmsg"]
+        # assert 60111 == self.test_get(token, userid)["errcode"]
+
 
 
 
