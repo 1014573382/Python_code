@@ -16,5 +16,6 @@ class BaseApi():
         raw_data = json.dumps(data)
         for key, value in self.params.items():
             raw_data = raw_data.replace("${" + key + "}",value)
+        print("raw_data:", raw_data)
         data = json.loads(raw_data)
         return requests.request(**data).json()
