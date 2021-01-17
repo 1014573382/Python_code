@@ -1,4 +1,4 @@
-default: test
+default: dev
 url:
   dev: 127.0.0.1
   test: 127.0.0.3
