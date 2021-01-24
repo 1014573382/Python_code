@@ -14,5 +14,5 @@ def test_yaml():
         }
     }
 
-    with open("data.yaml","w")as f:
+    with open("get_token.yaml","w")as f:
         yaml.safe_dump(data=env, stream=f)

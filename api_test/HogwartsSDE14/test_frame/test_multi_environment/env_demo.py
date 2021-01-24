@@ -14,12 +14,12 @@ import yaml
 
 class Api:
 
-    with open("data.yaml", encoding='utf-8')as f:
+    with open("get_token.yaml", encoding='utf-8')as f:
         env = yaml.safe_load(f)
 
     def send(self, data:dict):
          # 替换
-         print(self.env["url"][self.env["default"]])
+         # print(self.env["url"][self.env["default"]])
          # 通过default的值控制替换的url内容
          data["url"] = str(data["url"]).replace("test-studio", self.env["url"][self.env["default"]])
          r = requests.request(method=data["method"], url=data["url"], headers=data["headers"])

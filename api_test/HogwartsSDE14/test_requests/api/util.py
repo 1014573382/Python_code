@@ -5,6 +5,9 @@ import requests
 
 
 class Util:
+    # 加 _ 设置为私有变量
+    _corpid = "ww251b76973ac9fac6",
+    _corpsecret = "Ccx7iTSoHI9QSySmlbED4T9HP8raNJmYthKlee9kXEE"
 
     def get_token(self):
         """
@@ -13,9 +16,10 @@ class Util:
         https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ID&corpsecret=SECRET
         :return:
         """
+
         request_param = {
-            "corpid": "ww251b76973ac9fac6",
-            "corpsecret": "Ccx7iTSoHI9QSySmlbED4T9HP8raNJmYthKlee9kXEE"
+            "corpid": self._corpid,
+            "corpsecret": self._corpsecret
         }
 
         r = requests.get("https://qyapi.weixin.qq.com/cgi-bin/gettoken", params=request_param)
