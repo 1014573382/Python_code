@@ -4,9 +4,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Firefox()
-#driver.implicitly_wait(10)
 
 driver.get("https://www.baidu.com")
+#强制等待
+#sleep(10)
+
+#隐性等待，等到网页加载完成，就执行下一步，否则就等到设置时间截止执行下一步
+#driver.implicitly_wait(10)
+
+print(driver.title)
 
 try:
       #显式等待，每隔0.6秒检查一次，6秒后返超时
