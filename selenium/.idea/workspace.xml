@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdc4394-78c8-4782-9888-1fdb28e886ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_ActionChains.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_TouchAction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/practice_demo/base_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_base/.idea/Python_base.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_base/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_base/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api_test/.idea/api_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_test/.idea/api_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/selenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/selenium.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,14 +20,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HogwartsSDE14/seleniumIDE_record/test_testclick.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="23" column="55" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="55" />
+            <state relative-caret-position="130">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="e#28#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#69#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_window.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#69#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDE14/practice_demo/base_operation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -91,12 +124,16 @@
         <option value="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_wait.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_ActionChains.py" />
         <option value="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_TouchAction.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_form.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/practice_demo/base_operation.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_window.py" />
+        <option value="$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_frame.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="52" />
+    <option name="x" value="41" />
+    <option name="y" value="44" />
     <option name="width" value="1242" />
     <option name="height" value="714" />
   </component>
@@ -158,22 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_TouchAction.TestTouchAction.test_touch_action_scrollbottom">
-    <configuration name="pytest for test_ActionChains.TestActionChains.test_action_chains" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HogwartsSDE14/practice_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ActionChains.TestActionChains.test_action_chains&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_frame.TestFrame.test_frame">
     <configuration name="pytest for test_ActionChains.TestActionChains.test_dragdrop" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,7 +241,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_wait.TestWait.test_wait" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_frame.TestFrame.test_frame" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,17 +252,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_wait.TestWait.test_wait&quot;" />
+      <option name="_new_target" value="&quot;test_frame.TestFrame.test_frame&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_window.TestWindows.test_window" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HogwartsSDE14/practice_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_window.TestWindows.test_window&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_frame.TestFrame.test_frame" />
+        <item itemvalue="Python tests.pytest for test_window.TestWindows.test_window" />
         <item itemvalue="Python tests.pytest for test_TouchAction.TestTouchAction.test_touch_action_scrollbottom" />
         <item itemvalue="Python tests.pytest for test_ActionChains.TestActionChains.test_keys" />
         <item itemvalue="Python tests.pytest for test_ActionChains.TestActionChains.test_dragdrop" />
-        <item itemvalue="Python tests.pytest for test_ActionChains.TestActionChains.test_action_chains" />
-        <item itemvalue="Python tests.pytest for test_wait.TestWait.test_wait" />
       </list>
     </recent_temporary>
   </component>
@@ -269,28 +306,17 @@
       <option name="project" value="LOCAL" />
       <updated>1613400599724</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="selenium ActionChains TouchAction">
+      <created>1613642745282</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613642745283</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_ActionChains_TestActionChains_test_action_chains - 2021.02.17 at 22h 52m 53s.xml">
-      <configuration name="pytest for test_ActionChains.TestActionChains.test_action_chains" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_ActionChains_TestActionChains_test_action_chains - 2021.02.17 at 22h 54m 16s.xml">
-      <configuration name="pytest for test_ActionChains.TestActionChains.test_action_chains" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_ActionChains_TestActionChains_test_dragdrop - 2021.02.17 at 23h 11m 29s.xml">
-      <configuration name="pytest for test_ActionChains.TestActionChains.test_dragdrop" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_ActionChains_TestActionChains_test_dragdrop - 2021.02.17 at 23h 12m 59s.xml">
-      <configuration name="pytest for test_ActionChains.TestActionChains.test_dragdrop" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_ActionChains_TestActionChains_test_dragdrop - 2021.02.17 at 23h 15m 25s.xml">
-      <configuration name="pytest for test_ActionChains.TestActionChains.test_dragdrop" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_ActionChains_TestActionChains_test_keys - 2021.02.18 at 17h 17m 13s.xml">
-      <configuration name="pytest for test_ActionChains.TestActionChains.test_keys" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_ActionChains_TestActionChains_test_keys - 2021.02.18 at 17h 19m 01s.xml">
       <configuration name="pytest for test_ActionChains.TestActionChains.test_keys" configurationId="tests" />
     </history-entry>
@@ -303,17 +329,35 @@
     <history-entry file="pytest_for_test_TouchAction_TestTouchAction_test_touch_action_scrollbottom - 2021.02.18 at 17h 49m 36s.xml">
       <configuration name="pytest for test_TouchAction.TestTouchAction.test_touch_action_scrollbottom" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_window_TestWindows_test_window - 2021.02.18 at 18h 27m 46s.xml">
+      <configuration name="pytest for test_window.TestWindows.test_window" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_window_TestWindows_test_window - 2021.02.18 at 18h 35m 22s.xml">
+      <configuration name="pytest for test_window.TestWindows.test_window" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_window_TestWindows_test_window - 2021.02.18 at 18h 37m 13s.xml">
+      <configuration name="pytest for test_window.TestWindows.test_window" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_window_TestWindows_test_window - 2021.02.18 at 18h 44m 58s.xml">
+      <configuration name="pytest for test_window.TestWindows.test_window" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_frame_TestFrame_test_frame - 2021.02.18 at 19h 50m 52s.xml">
+      <configuration name="pytest for test_frame.TestFrame.test_frame" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_frame_TestFrame_test_frame - 2021.02.18 at 19h 52m 03s.xml">
+      <configuration name="pytest for test_frame.TestFrame.test_frame" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="428" y="257" width="1242" height="714" extended-state="0" />
+    <frame x="14" y="117" width="1242" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.115448505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19767442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05172414" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15344827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,37 +374,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="selenium 相关文件" />
     <MESSAGE value="selenium wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium wait" />
+    <MESSAGE value="selenium ActionChains TouchAction" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium ActionChains TouchAction" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic_operation/cookie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_operation/find_by_css_selector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_operation/hover_menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_operation/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic_operation/testsuit_demo.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -695,9 +712,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_hogwarts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="520">
           <caret line="20" column="46" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="e#69#91#0" expanded="true" />
@@ -707,10 +731,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HogwartsSDE14/seleniumIDE_record/test_testclick.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="55" />
+        <state relative-caret-position="130">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="e#28#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/practice_demo/base_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#69#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDE14/practice_demo/test_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#69#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
