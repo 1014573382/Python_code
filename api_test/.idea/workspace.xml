@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="494ed3da-57b5-4250-8019-e8745718049e" name="Default Changelist" comment="接口测试——PO模式，参数化-练习">
-      <change beforePath="$PROJECT_DIR$/../Appium/.idea/Appium.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Appium/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Appium/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Appium/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Appium/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Appium/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_base/.idea/Python_base.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_base/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_base/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_base/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_base/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_base/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_base/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/api_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HogwartsSDE14/test_frame/test_token/testcase/test_gettoken.py" beforeDir="false" afterPath="$PROJECT_DIR$/HogwartsSDE14/test_frame/test_token/testcase/test_gettoken.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../selenium/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../selenium/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../selenium/.idea/selenium.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../selenium/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../selenium/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -444,7 +429,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="125" y="12" width="1198" height="748" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21206896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
